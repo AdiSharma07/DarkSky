@@ -1,5 +1,5 @@
 import WeatherIcon from "./WeatherIcon";
-import "../styles/components/CurrentWeather.scss";
+import "../styles/components/CurrentWeather.css";
 import { useContext } from "react";
 import WeatherContext from "../context/weather.context";
 

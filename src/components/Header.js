@@ -1,4 +1,4 @@
-import "../styles/components/Header.scss";
+import "../styles/components/Header.css";
 import Place from "./Place";
 import Search from "./Search";
 import Settings from "./Settings";

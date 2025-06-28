@@ -1,4 +1,4 @@
-import "../styles/components/Search.scss";
+import "../styles/components/Search.css";
 import { searchPlaces } from "../api";
 import { useContext } from "react";
 import WeatherContext from "../context/weather.context";
@@ -14,7 +14,7 @@ function Search() {
     setText(e.target.value);
     const data = await searchPlaces(e.target.value);
     setSearchResults(data);
-    setOpenSearchResults(data.length);
+    setOpenSearchResults(data.length > 0);
   };
 
   const changePlace = (place) => {

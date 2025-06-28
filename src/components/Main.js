@@ -1,4 +1,4 @@
-import "../styles/components/Main.scss";
+import "../styles/components/Main.css";
 import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
 import { useContext } from "react";
@@ -6,7 +6,8 @@ import WeatherContext from "../context/weather.context";
 import Loader from "./Loader";
 
 function Main() {
-  const {loading, currentWeather, dailyForecast, hourlyForecast} = useContext(WeatherContext);
+  const { loading, currentWeather, dailyForecast, hourlyForecast } =
+    useContext(WeatherContext);
 
   return (
     <div className="Main">
@@ -14,7 +15,7 @@ function Main() {
         <Loader />
       ) : (
         <>
-          <CurrentWeather data ={currentWeather}/>
+          <CurrentWeather data={currentWeather} />
           <Forecast
             type="hourly"
             title="HOURLY FORECAST"

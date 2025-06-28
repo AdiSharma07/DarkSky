@@ -1,6 +1,6 @@
 import HourlyForecastWidget from "./HourlyForecastWidget";
 import DailyForecastWidget from "./DailyForecastWidget";
-import "../styles/components/Forecast.scss";
+import "../styles/components/Forecast.css";
 import HorizontallyScrollable from "./HorizontallyScrollable";
 
 function Forecast({ title, type, data }) {

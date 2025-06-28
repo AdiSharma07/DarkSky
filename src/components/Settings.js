@@ -1,4 +1,4 @@
-import "../styles/components/Settings.scss";
+import "../styles/components/Settings.css";
 import { useContext, useState } from "react";
 import ThemeContext from "../context/theme.context";
 import { MEASUREMENT_SYSTEMS } from "../constants";
